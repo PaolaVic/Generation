@@ -8,16 +8,16 @@ public class EXE2 {
 		// TODO Auto-generated method stub
 float nota1, nota2, nota3, nota4, media;
 		
-		Scanner print = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("\nEntre com a primeira nota: ");
-		nota1 = print.nextFloat();
+		nota1 = leia.nextFloat();
 		System.out.println("\nEntre com a segunda nota: ");
-		nota2 = print.nextFloat();
+		nota2 = leia.nextFloat();
 		System.out.println("\nEntre com a terceira nota: ");
-		nota3 = print.nextFloat();
+		nota3 = leia.nextFloat();
 		System.out.println("\nEntre com a quarta nota: ");
-		nota4 = print.nextFloat();
+		nota4 = leia.nextFloat();
 		
 		media = (nota1 + nota2 + nota3 + nota4) / 4;
 		
