@@ -19,18 +19,16 @@ public class Collection1 {
             cores.add(cor);
         }
 
-        System.out.println("Todas as cores:");
+        System.out.println("Todas as Cores:");
         for (String cor : cores) {
             System.out.println(cor);
         }
 
         Collections.sort(cores);
 
-        System.out.println("\nOrdenar as cores:");
+        System.out.println("\nCores Ordenadas:");
         for (String cor : cores) {
             System.out.println(cor);
         }
-
-	}
-
-}
+		}
+		}
